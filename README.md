@@ -15,3 +15,14 @@ put above .h in directory lib/include
 ## compile  
 run ./build.sh  
 
+## example  
+```
+#include "com_log.h"
+#include "decoder.h"
+
+com_log_init();
+GetFormatTypeManager().loadConfigFromFile("config.json");
+FormatResult result = GetFileDecoder().decode("./1.xls");
+LOG_I("text=%s", result.text.toString().c_str());
+```
+
