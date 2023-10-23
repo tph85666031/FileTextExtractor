@@ -1,0 +1,181 @@
+{
+	"types":	[{
+			"name":	"PDF",
+			"priority":	255,
+			"header":	"25504446",
+			"suffix":	["PDF"],
+			"group":	"Multimedia",
+			"header_offset":	0,
+			"trailer":	"2525454F460A"
+		},
+		{
+			"name":	"PDF",
+			"priority":	255,
+			"header":	"25504446",
+			"suffix":	["PDF"],
+			"group":	"Multimedia",
+			"header_offset":	0,
+			"trailer":	"2525454F460D0A"
+		},
+		{
+			"name":	"PDF",
+			"priority":	255,
+			"header":	"25504446",
+			"suffix":	["PDF"],
+			"group":	"Multimedia",
+			"header_offset":	0,
+			"trailer":	"2525454F460D"
+		},
+		{
+			"name":	"OpenXML",
+			"priority":	255,
+			"header":	"504B0304",
+			"suffix":	["DOCX","XLSX","PPTX"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"DOC",
+			"priority":	255,
+			"header":	"D0CF11E0A1B11AE1",
+			"suffix":	["DOC","DOT"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"XLS",
+			"priority":	255,
+			"header":	"D0CF11E0A1B11AE1",
+			"suffix":	["XLS","XLA"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"PPT",
+			"priority":	255,
+			"header":	"D0CF11E0A1B11AE1",
+			"suffix":	["PPT","PPS"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"WIZ",
+			"priority":	255,
+			"header":	"D0CF11E0A1B11AE1",
+			"suffix":	["WIZ"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"ZIP",
+			"priority":	100,
+			"header":	"504B0304",
+			"suffix":	["ZIP"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"BZ2",
+			"priority":	100,
+			"header":	"425A68",
+			"suffix":	["BZ2"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"GZ",
+			"priority":	100,
+			"header":	"1F8B08",
+			"suffix":	["GZ"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"XZ",
+			"priority":	100,
+			"header":	"FD377A585A00",
+			"suffix":	["XZ"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"7Z",
+			"priority":	100,
+			"header":	"377ABCAF271C",
+			"suffix":	["7Z"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"RAR",
+			"priority":	100,
+			"header":	"526172211A0700",
+			"suffix":	["RAR"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"ISO",
+			"priority":	100,
+			"header":	"00000000",
+			"suffix":	["ISO"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"RTF",
+			"priority":	255,
+			"header":	"7B5C72746631",
+			"suffix":	["RTF"],
+			"header_offset":	0,
+			"trailer":	"5C706172207D7D"
+		},
+		{
+			"name":	"JPEG",
+			"priority":	255,
+			"header":	"FFD8",
+			"suffix":	["JPE","JPG","JPEG"],
+			"header_offset":	0,
+			"trailer":	"FFD9"
+		},
+		{
+			"name":	"PNG",
+			"priority":	255,
+			"header":	"89504E470DD0A1A0A",
+			"suffix":	["PNG"],
+			"header_offset":	0,
+			"trailer":	"49454E44AE426082"
+		},
+		{
+			"name":	"BMP",
+			"priority":	255,
+			"header":	"424D",
+			"suffix":	["BMP"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"XML",
+			"priority":	10,
+			"header":	"3C3F786D6C2076657273696F6E3D22312E30223F3E",
+			"suffix":	["XML"],
+			"header_offset":	0,
+			"trailer":	""
+		},
+		{
+			"name":	"ASAR",
+			"priority":	10,
+			"header":	"7B2266696C657322",
+			"suffix":	["ASAR"],
+			"header_offset":	16,
+			"trailer":	""
+		},
+		{
+			"name":	"TXT",
+			"priority":	0,
+			"header":	"",
+			"suffix":	["TXT","LOG","DIFF","INI","DIFF","CSV","JS","CPP","CC","HPP","H","JAVA","PY","CS","SH","JSON","HTML"],
+			"header_offset":	0,
+			"trailer":	""
+		}]
+}
